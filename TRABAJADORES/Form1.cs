@@ -26,5 +26,27 @@ namespace TRABAJADORES
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'eMPRESADataSet.Trabajadores' Puede moverla o quitarla según sea necesario.
+            this.trabajadoresTableAdapter.Fill(this.eMPRESADataSet.Trabajadores);
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void CALCULAR_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcategoria_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
