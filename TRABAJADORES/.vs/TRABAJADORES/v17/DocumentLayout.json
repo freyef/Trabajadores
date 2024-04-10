@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Examen practico final\\TRABAJADORES\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|D:\\Examen practico final\\TRABAJADORES\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|d:\\examen practico final\\trabajadores\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|d:\\examen practico final\\trabajadores\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|D:\\Examen practico final\\TRABAJADORES\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FF810382-289E-40FD-BEA5-7E08F11FACB6}|TRABAJADORES.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\Examen practico final\\TRABAJADORES\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAwEcAAAA/AAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAQwH8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:00:29.357Z",
               "EditorCaption": ""
