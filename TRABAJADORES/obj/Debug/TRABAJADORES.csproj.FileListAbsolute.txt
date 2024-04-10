@@ -1,0 +1,15 @@
+D:\Examen practico final\TRABAJADORES\bin\Debug\TRABAJADORES.exe.config
+D:\Examen practico final\TRABAJADORES\bin\Debug\TRABAJADORES.exe
+D:\Examen practico final\TRABAJADORES\bin\Debug\TRABAJADORES.pdb
+D:\Examen practico final\TRABAJADORES\bin\Debug\EntityFramework.dll
+D:\Examen practico final\TRABAJADORES\bin\Debug\EntityFramework.SqlServer.dll
+D:\Examen practico final\TRABAJADORES\bin\Debug\EntityFramework.xml
+D:\Examen practico final\TRABAJADORES\bin\Debug\EntityFramework.SqlServer.xml
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.csproj.AssemblyReference.cache
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.Form1.resources
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.Properties.Resources.resources
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.csproj.GenerateResource.cache
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.csproj.CoreCompileInputs.cache
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJAD.1E2CCD12.Up2Date
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.exe
+D:\Examen practico final\TRABAJADORES\obj\Debug\TRABAJADORES.pdb

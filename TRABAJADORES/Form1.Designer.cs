@@ -39,14 +39,14 @@
             this.txtcategoria = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.eMPRESADataSet = new TRABAJADORES.EMPRESADataSet();
-            this.trabajadoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.trabajadoresTableAdapter = new TRABAJADORES.EMPRESADataSetTableAdapters.TrabajadoresTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellidosDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sueldoBrutoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.categoriaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.trabajadoresBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.eMPRESADataSet = new TRABAJADORES.EMPRESADataSet();
+            this.trabajadoresTableAdapter = new TRABAJADORES.EMPRESADataSetTableAdapters.TrabajadoresTableAdapter();
             this.AGREGAR = new System.Windows.Forms.Button();
             this.BUSACAR = new System.Windows.Forms.Button();
             this.CALCULAR = new System.Windows.Forms.Button();
@@ -55,8 +55,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eMPRESADataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eMPRESADataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -140,7 +140,7 @@
             this.label5.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(148, 9);
+            this.label5.Location = new System.Drawing.Point(267, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(319, 26);
             this.label5.TabIndex = 8;
@@ -166,20 +166,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(552, 150);
             this.dataGridView1.TabIndex = 9;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // eMPRESADataSet
-            // 
-            this.eMPRESADataSet.DataSetName = "EMPRESADataSet";
-            this.eMPRESADataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // trabajadoresBindingSource
-            // 
-            this.trabajadoresBindingSource.DataMember = "Trabajadores";
-            this.trabajadoresBindingSource.DataSource = this.eMPRESADataSet;
-            // 
-            // trabajadoresTableAdapter
-            // 
-            this.trabajadoresTableAdapter.ClearBeforeFill = true;
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -216,6 +202,20 @@
             this.categoriaDataGridViewTextBoxColumn.Name = "categoriaDataGridViewTextBoxColumn";
             this.categoriaDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // trabajadoresBindingSource
+            // 
+            this.trabajadoresBindingSource.DataMember = "Trabajadores";
+            this.trabajadoresBindingSource.DataSource = this.eMPRESADataSet;
+            // 
+            // eMPRESADataSet
+            // 
+            this.eMPRESADataSet.DataSetName = "EMPRESADataSet";
+            this.eMPRESADataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // trabajadoresTableAdapter
+            // 
+            this.trabajadoresTableAdapter.ClearBeforeFill = true;
+            // 
             // AGREGAR
             // 
             this.AGREGAR.BackColor = System.Drawing.Color.CornflowerBlue;
@@ -227,6 +227,7 @@
             this.AGREGAR.TabIndex = 10;
             this.AGREGAR.Text = "AGREGAR";
             this.AGREGAR.UseVisualStyleBackColor = false;
+            this.AGREGAR.Click += new System.EventHandler(this.AGREGAR_Click);
             // 
             // BUSACAR
             // 
@@ -314,8 +315,8 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.eMPRESADataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trabajadoresBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.eMPRESADataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TRABAJADORES
 {
@@ -47,6 +48,29 @@ namespace TRABAJADORES
         private void txtcategoria_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void AGREGAR_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                using (var bd = new EMPRESAEntities()) 
+                {
+                    var trabajador = new Trabajadores();                 
+                    trabajador.Nombre = txtnombre.Text;
+                    trabajador.Apellidos = txtapellido.Text;
+                    trabajador.SueldoBruto = Convert.ToInt32(txtsueldo.Text);
+                    trabajador.Categoria = txtcategoria.Text;
+
+                    bd.Trabajadores.Add(trabajador);
+                    bd.SaveChanges();
+                    MessageBox.Show("trabajador registrado correctamente.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al registrar trabajador: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
